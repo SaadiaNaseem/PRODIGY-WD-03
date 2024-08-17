@@ -1,0 +1,169 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:#DCD6E1;
+}
+
+header{
+	margin-top: 0px;
+	border-radius: 40px;
+	box-shadow: 2px 1px 20px  #866B9B;
+	text-align: center;
+}
+h1 { 
+	margin-top: 0px;
+	padding-left: 30px;
+	padding: 5px;
+	color: #866B9B;  
+} 
+
+/* Main Container */
+#main { 
+	text-align: center; 
+	margin: 0px;
+	padding: 0px;
+} 
+
+p { 
+	margin-bottom: -10px; 
+} 
+
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+#b1{ 
+	border-bottom:1px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:2px solid #866b9b77; 
+	border-top:2px solid #866b9b77;
+} 
+
+#b2 { 
+	border-bottom:1px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:2px solid #866b9b77;
+} 
+
+#b3 { 
+	border-bottom:1px solid #866b9b77; 
+	border-right:2px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:2px solid #866b9b77;
+} 
+
+#b4 { 
+	border-bottom:1px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:2px solid #866b9b77; 
+	border-top:1px solid #866b9b77;
+} 
+	
+#b5 { 
+	border-bottom:1px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:1px solid #866b9b77;
+} 
+
+#b6 { 
+	border-bottom:1px solid #866b9b77; 
+	border-right:2px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:1px solid #866b9b77; 
+} 
+
+#b7 { 
+	border-bottom:2px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:2px solid #866b9b77; 
+	border-top:1px solid #866b9b77; 
+} 
+
+#b8 { 
+	border-bottom:2px solid #866b9b77; 
+	border-right:1px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:1px solid #866b9b77;
+} 
+
+#b9 { 
+	border-bottom:2px solid #866b9b77; 
+	border-right:2px solid #866b9b77; 
+	border-left:1px solid #866b9b77; 
+	border-top:1px solid #866b9b77;
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid  #866b9b77; 
+	box-shadow: 2px 1px 20px  #866B9B;
+	margin-left: auto; 
+	margin-top: 10px;
+	border-radius: 20px; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	background-color: whitesmoke; 
+	color:#866B9B; 
+	font-size: 20px; 
+	cursor: pointer; 
+	transition: all 0.3s ease;
+} 
+
+#but:hover{
+	width: 100px; /* Increase width */
+    height: 45px; /* Increase height */
+    background-color:#DCD6E1; /* Change background color */
+	border: 3px solid  #866b9b77;
+    color:#866B9B; /* Change text color to white for better contrast */
+}
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	color:white;
+	text-shadow: 2px 2px 4px purple; /* Purple text shadow */
+    text-decoration: underline; /* Underline text */
+	margin-bottom: 5px;
+	padding: 5px;
+	font-size: 25px; 
+} 
+/* Game Instruction Text */
+#ins { 
+	font-family: Verdana,Geneva, Tahoma, sans-serif; 
+	color: white; 
+	background-color:#866b9b62;
+	box-shadow: 2px 1px 20px  #866B9B;
+	border-radius: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 20px;
+	text-align: left;
+}
+#ins b{
+	text-decoration: underline;
+}
+#ins strong {
+    color:#866B9B;
+}
